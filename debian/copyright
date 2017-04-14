@@ -1,0 +1,58 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: bulk-extractor
+Source: https://github.com/simsong/bulk_extractor
+
+Files: *
+Copyright: 2012 Simson L. Garfinkel
+License: GPL-2+
+Comment: 
+ Where noted noted, bulk_extractor source code files are public domain
+ software. 
+ .
+ However, because one of the bulk_extractor source modules (pyxpress.c)
+ is covered under the GNU Public License, the compiled bulk_extractor
+ executable is covered under the GPL copyright.
+ .
+ The software provided here is released by the Naval Postgraduate
+ School, an agency of the U.S. Department of Navy.  The software bears
+ no warranty, either expressed or implied. NPS does not assume legal
+ liability nor responsibility for a User's use of the software or the
+ results of such use.
+ .
+ Please note that within the United States, copyright protection, under
+ Section 105 of the United States Code, Title 17, is not available for
+ any work of the United States Government and/or for any works created
+ by United States Government employees. 
+ .
+ tsk3 includes are Copyright (C) 2010 Brian Carrier and covered under the Common Public License 1.0
+ .
+ MyFlexLexer.h is (C) 1993 by the Regents of the University of Califronia.
+ .
+ utf8.h is Copyright 2006 Nemanja Trifunovic
+ .
+ base64_forensic.cpp is Copyright (C) 1996-1999 by Internet Software Consortium, with portions Copyright (c) 1995 by International Business Machines, Inc.
+ .
+ scan_ascii85.cpp is  Copyright (C) 2011 Remy Oukaour
+ .
+ scan_json.cpp is Copyright (c) 2005 JSON.org
+ .
+ pyxpress.c is Copyright 2008 (c) Matthieu Suiche. <msuiche[at]gmail.com>
+
+Files: debian/*
+Copyright: 2012 dookie <dookie@kali.org>
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".

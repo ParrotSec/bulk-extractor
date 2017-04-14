@@ -1,0 +1,70 @@
+bulk-extractor (1.5.3+git20150907-0parrot1) testing; urgency=medium
+
+  * Import into Parrot
+
+ -- Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>  Sat, 15 Apr 2017 00:41:16 +0200
+
+bulk-extractor (1.5.3+git20150907-0kali1) kali-dev; urgency=medium
+
+  * Import new upstream release
+
+ -- Sophie Brun <sophie@freexian.com>  Mon, 07 Sep 2015 16:06:18 +0200
+
+bulk-extractor (1.5.3-0kali1) kali-dev; urgency=medium
+
+  * Import new upstream release
+
+ -- Sophie Brun <sophie@freexian.com>  Mon, 07 Sep 2015 15:50:16 +0200
+
+bulk-extractor (1.5.1-0kali2) kali-dev; urgency=medium
+
+  * drop depends to libraries (already managed by shlibs:Depends)
+
+ -- Sophie Brun <sophie@freexian.com>  Wed, 06 Aug 2014 08:44:21 +0200
+
+bulk-extractor (1.5.1-0kali1) kali-dev; urgency=medium
+
+  * debian/watch updated because it didn't work.
+  * New Uptream release 
+  * drop 2 files in debian/docs because they don't exist anymore
+  * add dh_autoreconf in rules to create ./configure
+  * Use debhelper 9 nad change url for vcs-git
+  * Rearrange debian/copyright
+
+ -- Sophie Brun <sophie@freexian.com>  Tue, 05 Aug 2014 09:48:08 +0200
+
+bulk-extractor (1.3-1kali5) kali; urgency=low
+
+  * Removed desktop file
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 14 Dec 2012 19:49:22 -0500
+
+bulk-extractor (1.3-1kali4) kali; urgency=low
+
+  * Updated desktop file
+
+ -- Mati Aharoni <muts@kali.org>  Sat, 01 Dec 2012 10:50:03 -0500
+
+bulk-extractor (1.3-1kali3) kali; urgency=low
+
+  * Fixed build and installation depends
+
+ -- dookie <dookie@kali.org>  Thu, 08 Nov 2012 11:50:37 -0700
+
+bulk-extractor (1.3-1kali2) kali; urgency=low
+
+  * Kali Version with fixed build depends
+
+ -- dookie <dookie@kali.org>  Thu, 08 Nov 2012 11:35:21 -0700
+
+bulk-extractor (1.3-1kali1) kali; urgency=low
+
+  * Kali Version
+
+ -- dookie <dookie@kali.org>  Tue, 06 Nov 2012 14:36:10 -0700
+
+bulk-extractor (1.3-1) kali; urgency=low
+
+  * Initial release 
+
+ -- dookie <dookie@kali.org>  Tue, 06 Nov 2012 14:14:48 -0700

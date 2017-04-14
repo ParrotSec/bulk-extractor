@@ -1,0 +1,21 @@
+Source: bulk-extractor
+Section: net
+Priority: extra
+Maintainer: dookie <dookie@kali.org>
+Build-Depends: debhelper (>= 9), autotools-dev, flex, libafflib-dev, libewf-dev, libssl-dev, libexpat1-dev, libexiv2-dev, zlib1g-dev, dh-autoreconf, git
+Standards-Version: 3.9.5
+Homepage: https://github.com/simsong/bulk_extractor
+Vcs-Git: git://git.kali.org/packages/bulk-extractor.git
+Vcs-Browser: http://git.kali.org/gitweb/?p=packages/bulk-extractor.git;a=summary
+
+Package: bulk-extractor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Extracts information without parsing filesystem
+ bulk_extractor is a C++ program that scans a disk image, a file,
+ or a directory of files and extracts useful information without
+ parsing the file system or file system structures. The results are
+ stored in feature files that can be easily inspected, parsed, or
+ processed with automated tools. bulk_extractor also creates
+ histograms of features that it finds, as features that are more
+ common tend to be more important. 
