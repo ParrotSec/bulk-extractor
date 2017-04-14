@@ -1,7 +1,7 @@
 Source: bulk-extractor
 Section: net
 Priority: extra
-Maintainer: dookie <dookie@kali.org>
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
 Build-Depends: debhelper (>= 9), autotools-dev, flex, libafflib-dev, libewf-dev, libssl-dev, libexpat1-dev, libexiv2-dev, zlib1g-dev, dh-autoreconf, git
 Standards-Version: 3.9.5
 Homepage: https://github.com/simsong/bulk_extractor

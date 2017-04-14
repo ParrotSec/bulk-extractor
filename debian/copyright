@@ -39,7 +39,8 @@ Comment:
  pyxpress.c is Copyright 2008 (c) Matthieu Suiche. <msuiche[at]gmail.com>
 
 Files: debian/*
-Copyright: 2012 dookie <dookie@kali.org>
+Copyright: 2012 dookie <dookie@kali.org>,
+           2017 Lorenzo "Palinuro" Faletra <palinuro@parrotsec.org>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
